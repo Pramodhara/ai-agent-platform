@@ -10,6 +10,7 @@ import (
 	"ai-agent-platform/handlers"
 )
 
+// Application entry point 
 func main() {
 	mux := http.NewServeMux()
 
