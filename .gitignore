@@ -1,0 +1,67 @@
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ---------- Editor / IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# ---------- Environment & secrets (IMPORTANT) ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+config.local.*
+
+# ---------- Logs & temp files ----------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+*.bak
+.cache/
+
+# ---------- Dependencies ----------
+node_modules/
+vendor/
+bower_components/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# ---------- Build output ----------
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.o
+*.class
+*.exe
+
+# ---------- Test & coverage ----------
+coverage/
+.coverage
+.pytest_cache/
+.nyc_output/
+
+# ---------- Archives & databases (local) ----------
+*.zip
+*.tar.gz
+*.rar
+*.sqlite3
+*.db
